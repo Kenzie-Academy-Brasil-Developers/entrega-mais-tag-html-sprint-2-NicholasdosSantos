@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Tags-Html</title>
+</head>
+<body>
+    
+    <!--praticamente todas as tags dentro do body são tags de conteúdo de fluxo,
+        podesndo pertencer a demais categorias de conteúdo html.
+    -->
+    <header>
+        <img src="./assets/img/logo.jpg">
+        <div>
+            <h1>A few topics about me! </h1>
+        </div>
+        
+    </header>
+    <hr>
+    <main>
+        <!--section, article, nav e aside são elementos que pertecem às categorias
+        de conteúdo de fluxo e seccionamento, pois criam uma seção no esboço atual.-->
+        
+        <article>
+
+            <section>
+                <h3>About my jorney's places</h3>
+                <p>Porto Alegre: My Hometown and first socialization culture;</p>
+                <p>Rio de Janeiro: The city that I learned to live and love;</p>
+                <p>Toronto: My future home.</p> 
+            </section>
+                
+            <section>
+                <h3>Family, Friends and Love</h3>
+                <p>
+                My mom's nickname is <b>Fê</b>, she lives with my baby monster (Rottweiler),
+                Aisha. My aunt's name is Simone and my father's name was Júlio.
+                </p>
+                <p>
+                My <b>childhood friends</b> live in Rio Grande do Sul and I love them a lot.  
+                </p>
+                <p>
+                <b>Bella</b>, my future wife (only if I give her a Tiffany's engagement ring - <em>hello darkness, my old friend</em>).
+                </p>
+            </section>
+
+            <section>
+                <h3>Learning Interests</h3>
+                <p>Some of my interests besides from <b>tecnology</b> and DIY culture:</p>
+                <ol type="I">
+                <li>Accessibility and Disability studies</li>
+                <li>Social Inovation and Design for Inovation</li>
+                <li>Education Methodologies - Spiral Curriculum, Flip Learning, Problem-based learning...</li>
+                </ol>
+            </section>
+
+            <section>
+                <p>Some of my favorite books:</p>
+
+                    <ul>
+                        <li><cite>RAGTIME, 1975</cite></li>
+                        <li><cite>DOM CASMURRO, 1900</cite></li>
+                        <li><cite>CIDADE PARTIDA, 1994</cite></li>
+                    </ul>
+
+                <p>Some of my favorite hobbies:</p>
+
+                <ul>
+                    <li>Play Soccer</li>
+                    <li>Read</li>
+                    <li>Listen to music</li>
+                </ul>
+                   
+            </section>
+
+
+        </article>
+       
+    </main>
+    
+    <section>
+    <!--
+        details - Elemento em bloco, da categoria de Fluxo e Interatividade,
+        contido por elementos de fluxo e tem como filho direto <summary>.
+        Possui atributo boobleano 'open', que por padrão é true.  
+        -->
+        <details>
+            <!-- summary é o título de details,
+            e dentro dele pode ser colocado conteúdo -->
+            <summary>Saiba mais</summary>
+            <ul>
+                <li><a href="https://www.instagram.com/labescola3d/">My project's Instagram - Lab Escola 3D</a></li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+        </details>
+    </section>
+   
+    <footer>
+        <p> &copy Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
+</body>
+</html>
